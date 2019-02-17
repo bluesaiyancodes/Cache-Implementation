@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5190CE5E21B504F30057DCD5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5190CE5D21B504F30057DCD5 /* main.cpp */; };
+		5190CE6C21B5055D0057DCD5 /* LIFO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5190CE6A21B5055D0057DCD5 /* LIFO.cpp */; };
+		5190CE8521B557350057DCD5 /* FIFO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5190CE8321B557350057DCD5 /* FIFO.cpp */; };
+		5190CE8821B563640057DCD5 /* LRU.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5190CE8621B563640057DCD5 /* LRU.cpp */; };
+		5190CE8B21B56E090057DCD5 /* MRU.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5190CE8921B56E090057DCD5 /* MRU.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		5190CE5A21B504F30057DCD5 /* CacheImplementation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CacheImplementation; sourceTree = BUILT_PRODUCTS_DIR; };
 		5190CE5D21B504F30057DCD5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5190CE6A21B5055D0057DCD5 /* LIFO.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LIFO.cpp; sourceTree = "<group>"; };
+		5190CE6B21B5055D0057DCD5 /* LIFO.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LIFO.hpp; sourceTree = "<group>"; };
+		5190CE8321B557350057DCD5 /* FIFO.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FIFO.cpp; sourceTree = "<group>"; };
+		5190CE8421B557350057DCD5 /* FIFO.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FIFO.hpp; sourceTree = "<group>"; };
+		5190CE8621B563640057DCD5 /* LRU.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LRU.cpp; sourceTree = "<group>"; };
+		5190CE8721B563640057DCD5 /* LRU.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LRU.hpp; sourceTree = "<group>"; };
+		5190CE8921B56E090057DCD5 /* MRU.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MRU.cpp; sourceTree = "<group>"; };
+		5190CE8A21B56E090057DCD5 /* MRU.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MRU.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				5190CE5D21B504F30057DCD5 /* main.cpp */,
+				5190CE6A21B5055D0057DCD5 /* LIFO.cpp */,
+				5190CE6B21B5055D0057DCD5 /* LIFO.hpp */,
+				5190CE8321B557350057DCD5 /* FIFO.cpp */,
+				5190CE8421B557350057DCD5 /* FIFO.hpp */,
+				5190CE8621B563640057DCD5 /* LRU.cpp */,
+				5190CE8721B563640057DCD5 /* LRU.hpp */,
+				5190CE8921B56E090057DCD5 /* MRU.cpp */,
+				5190CE8A21B56E090057DCD5 /* MRU.hpp */,
 			);
 			path = CacheImplementation;
 			sourceTree = "<group>";
@@ -118,7 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5190CE8521B557350057DCD5 /* FIFO.cpp in Sources */,
 				5190CE5E21B504F30057DCD5 /* main.cpp in Sources */,
+				5190CE6C21B5055D0057DCD5 /* LIFO.cpp in Sources */,
+				5190CE8B21B56E090057DCD5 /* MRU.cpp in Sources */,
+				5190CE8821B563640057DCD5 /* LRU.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
